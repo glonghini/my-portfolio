@@ -1,0 +1,37 @@
+nav {
+  text-align: center;
+  background-color: midnightblue;
+  height: 100%;
+  /* Animation parameters */
+  transition: .25s;
+  transition-timing-function: ease-in-out;
+}
+
+nav.full {
+  width: 250px;
+}
+
+nav.retracted {
+  width: 100px;
+}
+
+nav .title {
+  font-size: 20px;
+  height: 60px;
+}
+
+nav section {
+  background-color: #444;
+}
+
+nav section ul li {
+  padding: 10px 0px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+nav section ul li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}

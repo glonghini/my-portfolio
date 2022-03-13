@@ -1,0 +1,82 @@
+.App {
+  font-family: monospace;
+  display: flex;
+  height: 100vh;
+}
+
+.App .main-view {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  outline-width: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.light {
+  color: black;
+}
+
+.color-fff {
+  background-color: #fff;
+}
+
+.color-eee {
+  background-color: #eee;
+}
+
+.color-ddd {
+  background-color: #ddd;
+}
+
+.color-ccc {
+  background-color: #ccc;
+}
+
+.color-bbb {
+  background-color: #bbb;
+}
+
+.color-aaa {
+  background-color: #aaa;
+}
+
+.dark {
+  color: white;
+}
+
+.color-222 {
+  background-color: #222;
+}
+
+.color-333 {
+  background-color: #333;
+}
+
+.color-444 {
+  background-color: #444;
+}
+
+.color-555 {
+  background-color: #555;
+}
+
+.color-666 {
+  background-color: #666;
+}
+
+.color-777 {
+  background-color: #777;
+}
